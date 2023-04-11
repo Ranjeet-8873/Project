@@ -1,0 +1,73 @@
+*{
+    /* for whole */
+    margin: 0;
+    padding: 0;
+    
+    background-image: url("<");
+}
+body{
+    /* bgc img */
+    background-image: url(assets/pexels-maxyne-barcel-10402282\ 1.png);   
+}
+nav{
+    /* navigation */
+    display: flex;
+    justify-content:flex-start;
+    gap:10px ;
+    align-items: center;
+    margin: 20px 80px;
+}
+/* nav img */
+nav img{
+display: flex;
+justify-content: center;
+gap: 400px;
+align-items: center;
+margin: 10px 20px;
+}
+/* nav ul */
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 40px;
+    font-size: 30px;
+    margin-left: 120px;
+    background-color: gold;
+}
+/* nav button */
+nav button{
+    margin-left: 95px;
+    padding: 10px 20px 30px 40px; 
+    
+height: 40px;
+width: 120px;
+    background-color: palevioletred;
+    color: black;
+    font-size: 30px;
+    font-weight: 100;
+    border-radius: 10px;
+}
+/* section h1 */
+section h1{
+    font-size: 120px;
+    color: yellow;
+
+}
+/* section button */
+section button{
+    display:flex;
+    background-color: coral;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 380px;
+    
+    }
+    /* footer scroll button */
+footer{
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    
+}
